@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(https://wallpaperaccess.com/full/2465434.jpg);
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.logo h1{
+    color: red;
+    font-weight: bolder;
+}
+.nav ul li a{
+    color: white;
+}
+.nav ul li a:hover{
+    border-bottom: 1px solid red;
+}
+
+.home .center{
+    margin-top: 55px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.home .center h1{
+    color: white;
+    font-size: 60px;
+}
+
+.home .center p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 100;
+}
+
+.home .center .btn{
+    border-color: rgb(160, 72, 72);
+    background-color: red;
+    color: white;
+    padding: 7px 30px;
+    margin-left: 580px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+}
+.home .center .btn:hover{
+    opacity: .9;
+}
+.part1{
+    background-color:rgb(26, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.part1 .part111 h1{
+    color:white;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 550px;
+    margin-right: 660px;
+    border-bottom: 2px solid red;
+}
+.part1 .part11 p{
+    color:white;
+    font-size: 18px;
+}
+.part1 .part12{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.part2{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(https://media.istockphoto.com/photos/dumbbells-gym-equipment-black-and-white-image-isolated-on-black-picture-id466206500?k=6&m=466206500&s=612x612&w=0&h=HQ0xnrzxKunFG2S-NJQHzIEuf9MFX9CS298Z4rfjAPY=) ;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-bottom: 53px;
+    color: white;
+}
+
+.part2 .part21{
+    border-bottom: 2px solid red ;
+    margin-right: 600px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+.part2 .form .btn button{
+    margin: 20px 0;
+    height: 40px;
+    width: 90px;
+    font-size: 16px;
+}
+
+.part3{
+    background: black;
+    padding-top: 30px;
+    display: flex;
+    justify-content: start;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    gap: 100px;
+}
+.part3 .part31{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.part3 .part32{
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.part3 .part33{
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.part3 .part34{
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.part3 .part35{
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+}
+.part4{
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.part4 .part41{
+
+    border-top: 1px solid white;
+    padding-bottom: 20px;
+}
+.part4 .part42 p{
+    color: white;
+    font-size: 13px;
+    padding-left: 550px;
+}
